@@ -26,7 +26,7 @@ header nav ul {
     list-style: none;
     display: flex;
     gap: 2em;
-    margin: 0;
+    margin: 5rem;
     padding: 0;
 }
 
@@ -41,7 +41,7 @@ header nav ul li a:hover {
     color: #ffcc00;
 }
 
-#hero {
+.hero {
     background-image: url('../Images/background.webp');
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@ header nav ul li a:hover {
     text-align: center;
 }
 
-#hero .content {
+.hero .content {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -65,27 +65,27 @@ header nav ul li a:hover {
     animation: fadeZoomMove 2s ease-out forwards;
 }
 
-#hero .content h1 {
+.hero .content h1 {
     font-size: 4vw;
     margin: 0;
     color: white;
     -webkit-text-stroke: 1px black;
 }
 
-#hero .content img {
+.hero .content img {
     max-width: 200px;
     height: auto;
     display: block;
     border-radius: 10px;
 }
 
-#hero .text-content {
+.hero .text-content {
     display: flex; 
     flex-direction: column;
     gap: 1em; 
 }
 
-#hero .content p {
+.hero .content p {
     font-size: 1vw;
     margin: 0;
     color: white;
@@ -99,7 +99,9 @@ header nav ul li a:hover {
     width: 100%;
 }
 
-#hero .content button {
+.hero .content a {
+    display: inline-block;
+    text-decoration: none;
     padding: 0.5em 1em;
     border: none;
     border-radius: 5px;
@@ -107,29 +109,31 @@ header nav ul li a:hover {
     font-size: 1em;
     color: white;
     font-family: "Inter", sans-serif;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-#hero .content .btn-1 {
+.hero .content .btn-1 {
     background-color: #F9B300;
-    transition: background-color 0.3s ease;
     border: 2px solid #000;
 }
 
-#hero .content .btn-1:hover {
+.hero .content .btn-1:hover {
     background-color: #000;
+    color: #F9B300;
 }
 
-#hero .content .btn-2 {
+.hero .content .btn-2 {
     background-color: #007BFF;
-    transition: background-color 0.3s ease;
     border: 2px solid #000;
 }
 
-#hero .content .btn-2:hover {
+.hero .content .btn-2:hover {
     background-color: #000;
+    color: #007BFF;
 }
 
-#apodcast {
+.apodcast {
     display: flex;
     flex-direction: row;
     gap: 2em;

@@ -12,10 +12,9 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
 </head>
-
 <body>
     <header>
-        <img src="./Images/" alt="Logo" class="logo">
+        <img src="./Images/logo.png" alt="Logo" class="logo">
         <nav>
             <ul>
                 <li><a href="./wie.html">About Us</a></li>
@@ -23,22 +22,20 @@
             </ul>
         </nav>
     </header>
-
     <main>
-        <section id="hero">
+        <section class="hero">
             <article class="content">
-                <img src="./Images/Reach.webp" alt="img-icon1">
+                <img src="./Images/reach.webp" alt="img-icon1">
                 <div class="tekst-content">
                     <h1>Reach</h1>
                     <p>Learn about music and the story behind it</p>
                     <hr class="divider">
-                    <!--Verander naar link gestyled als button-->
-                    <button class="btn-1">Latest Episode</button>
-                    <button class="btn-2">About us</button>
+                    <a href="/episodes.html" class="btn-1">Latest Episode</a>
+                    <a href="/overons.html" class="btn-2">About us</a>
                 </div>
             </article>
         </section>
-        <section id="apodcast">
+        <section class="apodcast">
             <div class="video-container">
                 <video controls>
                     <source src="./videos/invideo-ai-1080 Reach Podcast Teaser_ Dive into Music! 2024-12-03.mp4" type="video/mp4">
@@ -58,50 +55,49 @@
         <section class="hosts">
             <h2>The hosts</h2>
             <div class="host-container">
-                <!--div veranderen naar section-->
-                <div class="card">
-                    <img src="/Images/Ronald.webp" alt="Foto van Ronald Lommers">
+                <section class="card">
+                    <img src="/Images/ronald.webp" alt="Foto van Ronald Lommers">
                     <h2>Ronald Lommers</h2>
                     <button class="btn">Learn More</button>
-                </div>
-                <div class="card">
-                    <img src="./Images/Senuk.webp" alt="Foto van Senuk Wickramasinghe">
+                </section>
+                <section class="card">
+                    <img src="./Images/senuk.webp" alt="Foto van Senuk Wickramasinghe">
                     <h2>Senuk Wickramasinghe</h2>
                     <button class="btn">Learn More</button>
-                </div>
-                <div class="card">
-                    <img src="./Images/Dex.webp" alt="Foto van Dex Van Kesteren">
+                </section>
+                <section class="card">
+                    <img src="./Images/dex.webp" alt="Foto van Dex Van Kesteren">
                     <h2>Dex Van Kesteren</h2>
                     <button class="btn">Learn More</button>
-                </div>
+                </section>
             </div>
         </section>
         <section class="reviews">
             <div class="big-card">
-                <!--div veranderen naar section-->
-                <div class="small-card">
+                <section class="small-card">
                     <img src="/Images/star-rating.png" alt="Review 1">
-                    <p>Interesting stories and a good mix of genres. Sometimes a bit too much focus on personal anecdotes, but overall an
-                    enjoyable listening experience!</p>
+                    <p>Interesting stories and a good mix of genres. Sometimes a bit too much focus on personal anecdotes, but overall
+                        an enjoyable listening experience!</p>
                     <p>— Lisa M.</p>
-                </div>
-                <div class="small-card">
+                </section>
+                <section class="small-card">
                     <img src="/Images/star-rating.png" alt="Review 2">
                     <p>The hosts have a lot of passion for music, and you can feel it! Sometimes it seems a bit long-winded, but I often
-                    discover new things, so I keep listening.</p>
+                        discover new things, so I keep listening.</p>
                     <p>— Kevin S.</p>
-                </div>
-                <div class="small-card">
+                </section>
+                <section class="small-card">
                     <img src="/Images/star-rating.png" alt="Review 3">
-                    <p>It's great to learn more about different music genres. The audio could sometimes be better, but the content more than
-                    makes up for it!</p>
+                    <p>It's great to learn more about different music genres. The audio could sometimes be better, but the content more
+                        than makes up for it!</p>
                     <p>— Sophie T.</p>
-                </div>
-                <div class="small-card">
+                </section>
+                <section class="small-card">
                     <img src="/Images/star-rating.png" alt="Review 4">
-                    <p>A great podcast to listen to on the go. I occasionally miss some depth, but the hosts' enthusiasm is contagious.</p>
+                    <p>A great podcast to listen to on the go. I occasionally miss some depth, but the hosts' enthusiasm is contagious.
+                    </p>
                     <p>— Mark J.</p>
-                </div>
+                </section>
             </div>
         </section>
     </main>
