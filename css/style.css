@@ -357,6 +357,14 @@ footer {
     flex-direction: row;
 }
 
+.hero-3 {
+    background-image: url('../Images/background-3.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    font-family: "Inter", sans-serif;
+}
+
 @keyframes fadeUp {
     0% {
         opacity: 0;
