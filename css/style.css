@@ -226,7 +226,8 @@ header nav ul li a:hover {
     font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    
+    color: #000;
+    font-family: "Inter", sans-serif;
 }
 
 .card .btn:hover {
@@ -442,8 +443,6 @@ audio {
     outline: none;
 }
 
-
-
 @keyframes fadeUp {
     0% {
         opacity: 0;
@@ -522,6 +521,5 @@ audio {
 @media (max-width: 768px) {
     .small-card {
         width: 100%;
-        /* Make each card take full width */
     }
 }
