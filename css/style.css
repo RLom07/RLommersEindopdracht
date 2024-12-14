@@ -43,7 +43,7 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background-image: url('../Images/background.webp');
+    background-image: url('../Images/background.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 75vh;
@@ -291,7 +291,7 @@ footer {
 }
 
 .hero-2 {
-    background-image: url('../Images/background-2.webp');
+    background-image: url('../Images/background-2.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 75vh;
@@ -359,7 +359,7 @@ footer {
 }
 
 .hero-3 {
-    background-image: url('../Images/background-3.webp');
+    background-image: url('../Images/background-3.png');
     background-size: cover;
     background-position: center;
     height: 75vh;
