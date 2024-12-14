@@ -13,13 +13,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8em;
+    height: 6em;
     padding: 0 2em;
     font-family: "Inter", sans-serif;
 }
 
 header .logo {
-    max-height: 10em;
+    max-height: 7em;
     width: auto;
 }
 
@@ -35,7 +35,7 @@ header nav ul li a {
     text-decoration: none;
     color: white;
     transition: color 0.3s ease;
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
 
 header nav ul li a:hover {
@@ -165,14 +165,13 @@ header nav ul li a:hover {
 .tekst-container h2 {
     display: flex;
     justify-content: center;
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: "Inter", sans-serif;
 }
 
 .tekst-container p {
-    line-height: 1.5;
     font-family: "Inter", sans-serif;   
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     line-height: 1.9;
 }
 
