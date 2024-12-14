@@ -359,7 +359,7 @@ footer {
 }
 
 .hero-3 {
-    background-image: url('/Images/background-3.webp');
+    background-image: url('../Images/background-3.webp');
     background-size: cover;
     background-position: center;
     height: 75vh;
