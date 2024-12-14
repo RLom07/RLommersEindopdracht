@@ -293,7 +293,7 @@ footer {
     background-image: url('../Images/background-2.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 75vh;
+    height: 85vh;
     font-family: "Inter", sans-serif;
 }
 
@@ -302,14 +302,14 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 12em;
+    padding: 10em;
 }
 
 .vertical-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10em;
+    gap: 13em;
     padding: 5em 0;
     background-color: #F5F5F5;
     font-family: "Inter", sans-serif;
@@ -338,13 +338,13 @@ footer {
 
 .vertical-cards .vertical-card h2 {
     margin: 0 0 1em;
-    font-size: 3em;
+    font-size: 2.5em;
     color: #333;
 }
 
 .vertical-cards .vertical-card p {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2em;
     color: #555;
     line-height: 1.5;
 }
