@@ -43,6 +43,7 @@ header nav ul li a:hover {
 }
 
 .hero {
+    /*Bron background image: Chatgpt 4o */
     background-image: url('../Images/background.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -165,13 +166,13 @@ header nav ul li a:hover {
 .tekst-container h2 {
     display: flex;
     justify-content: center;
-    font-size: 2em;
+    font-size: 2.3em;
     font-family: "Inter", sans-serif;
 }
 
 .tekst-container p {
     font-family: "Inter", sans-serif;   
-    font-size: 1.1rem;
+    font-size: 1.3em;
     line-height: 1.9;
 }
 
@@ -219,6 +220,7 @@ header nav ul li a:hover {
 
 .card .btn {
     padding: 0.5em 1em;
+    text-decoration: none;
     background-color: #E9E7E7;
     border: 1px solid black;
     border-radius: 5px;
@@ -290,6 +292,7 @@ footer {
 }
 
 .hero-2 {
+    /*Bron background image: Chatgpt 4o */
     background-image: url('../Images/background-2.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -349,15 +352,18 @@ footer {
     line-height: 1.5;
 }
 
+/* Code van derde bron: Chatgpt 4o */
 .vertical-cards .vertical-card:nth-child(odd) {
     flex-direction: row-reverse;
 }
 
+/* Code van derde bron: Chatgpt 4o */
 .vertical-cards .vertical-card:nth-child(even) {
     flex-direction: row;
 }
 
 .hero-3 {
+    /*Bron background image: Chatgpt 4o */
     background-image: url('../Images/background-3.png');
     background-size: cover;
     background-position: center;
@@ -440,18 +446,6 @@ footer {
 audio {
     width: 100%;
     outline: none;
-}
-
-@keyframes fadeUp {
-    0% {
-        opacity: 0;
-        transform: translateY(5vw);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 @keyframes fadeZoomMove {
